@@ -3,11 +3,25 @@
   max-width: 400px;
   margin: 80px auto;
   padding: 32px;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.85); /* Semi-transparent white background for readability */
   border-radius: 12px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
   font-family: 'Segoe UI', Roboto, 'Open Sans', sans-serif;
   color: #333333;
+}
+
+/* Add this to style the body or a wrapper div */
+body {
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.glassdoor.co.in%2FOverview%2FWorking-at-Waters-EI_IE5431.11%2C17.htm&psig=AOvVaw0sX265wEroRW0LQv5pD-DZ&ust=1758181382239000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIC66aSm348DFQAAAAAdAAAAABAE'); /* This is a placeholder URL for an online image */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 /* Heading */
